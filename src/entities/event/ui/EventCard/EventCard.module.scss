@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  height: 135px;
+  overflow-y: hidden;
+  
+
+  @media (width <= 320px) {
+    height: 114px;
+  }
+}
+
+.year {
+  color: var(--secondary-blue-color);
+  font-size: 25px;
+  font-family: var(--font-bebas);
+}
+
+.description {
+  color: var(--main-dark-color);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (width <= 320px) {
+  .year {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

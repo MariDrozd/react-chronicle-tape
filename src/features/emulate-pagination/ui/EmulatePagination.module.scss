@@ -1,0 +1,22 @@
+.paginationWrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  gap: 10px;
+}
+
+.point {
+  opacity: 0.5;
+  border: none;
+
+  &:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+.selected {
+  opacity: 1;
+}

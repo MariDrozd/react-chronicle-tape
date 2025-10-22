@@ -1,0 +1,37 @@
+.categoryWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: clamp(56px, calc(0.9286rem + 12.8571vw), 200px);
+  line-height: 160px;
+  letter-spacing: -0.02em;
+  gap: 80px;
+  z-index: var(--nav-btn-index);
+}
+
+.start {
+  color: var(--primary-blue-color);
+}
+
+.end {
+  color: var(--pink-color);
+}
+
+@media (width <= 576px) {
+	.categoryWrap {
+    gap: 30px;
+	}
+}
+
+@media (width <= 320px) {
+	.categoryWrap {
+		font-size: 56px;
+    gap: 20px;
+	}
+
+	.start {
+		color: var(--secondary-blue-color)
+	}
+}

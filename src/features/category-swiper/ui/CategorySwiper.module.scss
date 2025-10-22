@@ -1,0 +1,24 @@
+.categorySwiperWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+
+  @media (width <= 768px) {
+    gap: 10px;
+  }
+}
+
+.btnWrap {
+  display: flex;
+  gap: 20px;
+
+  @media (width <= 768px) {
+    gap: 10px;
+  }
+}
+
+.block {
+  opacity: 0.6;
+}

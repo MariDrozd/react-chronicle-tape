@@ -1,0 +1,39 @@
+.swiperWrap {
+  position: relative;
+  width: 100%;
+}
+
+.navBtn {
+  pointer-events: auto;
+  z-index: var(--controls-index);
+}
+
+.navBtnPrev,
+.navBtnNext {
+  position: absolute;
+  top: 30%;
+}
+
+.navBtnNext {
+  right: 0;
+  transform: translateX(50%);
+
+  @media (width <= 900px) {
+    transform: none;
+  }
+}
+
+.navBtnPrev {
+  left: 0;
+  transform: translateX(-50%);
+
+  @media (width <= 900px) {
+    transform: none;
+  }
+}
+
+.isDisabled {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

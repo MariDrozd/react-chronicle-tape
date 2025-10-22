@@ -1,0 +1,21 @@
+@use './reset';
+@use './variables/global' as *;
+@use './fonts/fonts';
+
+html,
+body,
+#root {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden auto;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color: var(--main-dark-color);
+  background: var(--bg-color);
+}
+
+button {
+  font-family: var(--font-sans);
+}

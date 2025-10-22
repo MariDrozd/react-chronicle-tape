@@ -1,0 +1,28 @@
+:root {
+  /* buttons-size */
+  --btn-mob-size: 25px;
+  --btn-small-size: 40px;
+  --btn-medium-size: 50px;
+  --btn-large-size: 56px;
+  --btn-point-size: 6px;
+
+  /* colors */
+  --bg-color: #f4f5f9;
+  --bg-light-color: #fff;
+  --primary-blue-color: #5d5fef;
+  --secondary-blue-color: #3877ee;
+  --pink-color: #ef5da8;
+  --main-dark-color: #42567a;
+  --mob-border-color: #c7cdd9;
+  --border-light-color: #f4f5f9;
+  --border-mid-color: #d8dce5;
+  --border-dark-color: #b1b7c2;
+
+  /* z-index */
+  --bg-index: -1;
+  --controls-index: 2;
+
+  /* fonts */
+  --font-sans: 'PT Sans', arial, sans-serif;
+  --font-bebas: 'Bebas Neue', arial, sans-serif;
+}
